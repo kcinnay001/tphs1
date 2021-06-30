@@ -1,0 +1,143 @@
+@media (min-width:900px){
+
+    .contact_form form{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "title name service" 
+        "postcode detail"
+        "address detail"
+        "county detail"
+        "number detail"
+        "email detail"
+        "service"
+         ;
+    }
+    /* .contact_form form{
+        display: flex;
+        flex-direction: column;
+        margin:10px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .contact_form input{
+        border:1px solid rgba(207,207,207,1);
+        font-size: 3.2vw;
+        padding-left:2.6vw;
+        padding-right:2.6vw;
+        padding-top:2.6vh;
+        padding-bottom:2.6vh;
+    }
+    
+    .contact_form textarea{
+        border:1px solid rgba(207,207,207,1);
+        font-size: 3.2vw;
+        padding-left:2.6vw;
+        padding-right:2.6vw;
+        padding-top:2.6vh;
+        padding-bottom:2.6vh;
+    }
+    
+    .contact_form textarea{
+        outline: none;
+    }
+    
+    .contact_form input:focus{
+       outline: none;
+    }
+    
+    .contact_form_top_row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        width: 100%;
+        border:1px solid black;
+    }
+    
+    .title_txt_box{
+        padding:0px;
+        border-radius:8px;
+        width:100%;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .fullname_txt_box{
+        margin-top: 10px;
+        padding:0px;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .number_txt_box{
+        margin-top: 10px;
+        padding:1.3vw;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .postcode_txt_box{
+        margin-top: 10px;
+        padding:1.3vw;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .address_txt_box{
+        margin-top: 10px;
+        padding:1.3vw;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .county_txt_box{
+        margin-top: 10px;
+        padding:1.3vw;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .email_txt_box{
+        margin-top: 10px;
+        padding:1.3vw;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .service_txt_box{
+        margin-top: 10px;
+        padding:1.3vw;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+    }
+    
+    .detail_txt_box{
+        margin-top: 10px;
+        padding:1.3vw;
+        border-radius:8px;
+        color:#8B8B8B;
+        background-color: rgba(238, 238, 238, 0.38);
+        font-size: 3.2vw;
+        height: 212.4px;
+    }
+    
+    .submit_btn{
+        margin-top:10px;
+        border-radius: 8px;
+        padding:2.6vw;
+        color:white;
+        background-color: #41669E;
+        font-weight: bold;
+        border:none;
+        text-transform: capitalize;
+        font-size:4.8vw;
+    } */
+}
