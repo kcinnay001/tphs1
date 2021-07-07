@@ -363,13 +363,15 @@ input[type=text], input[type=tel], input[type=address], input[type=county], inpu
 .flashBanner{
     position: absolute;
     width: 100vw;
+    top:1.2vh;
     display: flex;
     background-color: var(--dark-gray);
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
     justify-content: space-between;
 }
 
 .flashBanner p{
+    padding-top:0.5em;
     margin:1rem;
     color: white;
     font-weight: bold;
@@ -390,7 +392,7 @@ input[type=text], input[type=tel], input[type=address], input[type=county], inpu
     background-color: white;
     position: absolute;
     left: 0%;
-    top:9em;
+    top:18vh;
     z-index: 1;
 }
 .searchWord{
@@ -520,14 +522,15 @@ p {
         font-size: 1.5vh;
     }
     .searchFilter{
-        width: 100vw;
+        width: 99.1vw;
         display: flex;
         flex-direction: column;
         background-color: white;
         position: absolute;
         left: 0%;
-        top:11em;
+        top:18vh;
         z-index: 1;
     }
+    
 
 }

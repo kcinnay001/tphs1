@@ -157,7 +157,7 @@ const Navbar = () => {
                 </div>
             {service !== ''?
             (
-                
+                <Fragment>
                 <div className="serviceInfo">
                     <h1>{service}</h1>
                     <p>
@@ -166,37 +166,23 @@ const Navbar = () => {
                         click a service for more info
                     </p>
 
-                    {data &&
-                            data.map((x,id)=>{
+                    {data.map((x,id)=>{
                         
                                 return(
-
-                                <div className="services" key={id}>
-                                    <div className="service">
-                                        <button class="active" onClick={()=>openServiceExt(x)}>{x}</button>
-                                        <a onClick={()=>openContact(x)}>Enquire</a>
+                                <Fragment key={id}>
+                                    <div className="services" >
+                                        <div className="service">
+                                            <button class="active" onClick={()=>openServiceExt(x)}>{x}</button>
+                                            <a onClick={()=>openContact(x)}>Enquire</a>
+                                        </div>
                                     </div>
-                                </div>
-
+                                </Fragment>
                                     )
                                 }
                             )
                     }
-                    {
-                        serviceExt && (
-                        <div className="serviceInfoExt">
-                            <div className="serviceInfoHeader">
-                                <h2>{serviceExtTitle}</h2>
-                                <button class="closeInfo" onClick={()=>setServiceExt('')}>X</button>
-                            </div>
-                            <p className="serviceDesc">
-                                Information about gas boiler Information about gas boiler Information about gas boiler Information about gas boiler Information about gas boiler Information about gas boiler Information about gas boiler Information about gas boiler Information about gas boiler Information about gas boiler 
-                            </p>
-                        </div>
-                    )
-                    }
-                    
                 </div>
+                </Fragment>
             ):
             null
             }
@@ -224,8 +210,8 @@ const Navbar = () => {
                     <div className="footerInfo">
                         <div className="col">
                             <h4 class="footerTitle">CONTACT</h4>
-                            <a href="mailto:EMAIL@EMAIL.COM"><h4>EMAIL@EMAIL.COM</h4></a>
-                            <a href="#"><h4>000 000 000</h4></a>
+                            <a href="mailto:EMAIL@EMAIL.COM"><h4>thorneplumbingandheating@outlook.com</h4></a>
+                            <a href="#"><h4>07760 434691</h4></a>
                         </div>
                         <div className="col">
                             <h4 class="footerTitle">SOCIAL MEDIA</h4>

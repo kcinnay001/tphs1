@@ -25,6 +25,15 @@ const Contact = () => {
           }, (error) => {
               console.log(error.text);
           });
+
+        emailjs.sendForm('service_yyd2nbo', 'template_esxivla', e.target, 'user_WINLMjLbm8Uh4S8JPdXqp')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+
+          
           e.target.reset();
           setService('')
           setEmailConfirmation(true);
